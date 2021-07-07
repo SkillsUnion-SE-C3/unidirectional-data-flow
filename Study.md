@@ -8,9 +8,10 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 - [What is unidirectional data flow in React](https://flaviocopes.com/react-unidirectional-data-flow/)
 - [Lifting state up](https://reactjs.org/docs/lifting-state-up.html)
+- [Lifting state up video](https://www.youtube.com/watch?v=ahKsy1FS45k)
 - [Inverse data flow](https://dev.to/isabelxklee/understanding-inverse-data-flow-in-react-3cg7)
 - [Container vs Representational Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
-- [Conditional rendering](https://reactjs.org/docs/conditional-rendering.html)
+- [Conditional rendering](https://www.youtube.com/watch?v=fAUkKh-WfLM)
 
 ## Questions
 
