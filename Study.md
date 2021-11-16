@@ -18,24 +18,26 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 1. Describe what is unidirectional data flow.
 
    ```
-   Please write your answer here.
+  Due to one way bindings, in react the state is passed to the view and to child components actions are triggered by the view and actions can update the state. In a cycle of view, action and state the state change is passed to the view and to the child components. 
    ```
 
 2. What does it mean to have a single source of truth for data?
 
    ```
-   Please write your answer here.
+  As oppose to trying to sync the state between different components, the top-down data flow should be implemented. A state is added first of all to the component that needs it for rendering. Then, if other components also need it, lifting state up can be conducted to bring up other components to their closest common ancestor. 
+
+
    ```
 
 3. What is the limitation of inverse data flow?
 
    ```
-   Please write your answer here.
+  As it is restrictive it can result in lots more code if complex relationships are involved.
    ```
 
 4. Why is it a good practice to separate container and representational components?
    ```
-   Please write your answer here.
+   As they can increase code reusability and separate concerns by using rules of ou can use the same presentational component with completely different state sources used for how things appear and container component acting as data sources due to their use of state and provide the data to other containers 
    ```
 
 ### Response Guidelines
